@@ -5,7 +5,6 @@ use hyper::{
     service::{make_service_fn, service_fn},
     Body, Method, Response, Server, StatusCode,
 };
-use juniper_hyper;
 use anyhow::{Context, Result, bail};
 
 struct Database {
